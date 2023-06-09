@@ -1,0 +1,41 @@
+body {
+    background: rgb(212, 235, 235);
+}
+
+.main{
+    width: 550px;
+    height: 300px;
+    border-bottom: 5px solid rgba(128, 90, 203, 0.485);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(18, 180, 239, 0.219);
+    border-radius: 10px;
+}
+    
+.main:hover {
+    font-style: italic;
+    box-shadow: 4px 8px 16px 0 rgba(40, 140, 194, 0.485);
+
+}
+
+.img-photo{
+    width: 200px;
+    margin-right: 25px;
+   
+    border-radius: 4px;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para {
+    font-size: 22px;
+    color: #222222;
+}
